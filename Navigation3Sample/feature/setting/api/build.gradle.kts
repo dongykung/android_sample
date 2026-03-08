@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    api(project(":core:navigator"))
+    implementation(libs.androidx.navigation3.runtime)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
