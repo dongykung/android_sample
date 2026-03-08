@@ -9,9 +9,9 @@ import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.rounded.Favorite
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.andlife.api.ArticlesNavKey
-import com.andlife.api.FavoriteNavKey
-import com.andlife.api.SettingNavKey
+import com.andlife.feature.articles.api.ArticlesNavKey
+import com.andlife.feature.favorite.api.FavoriteNavKey
+import com.andlife.feature.setting.api.SettingNavKey
 import com.andlife.navigation3sample.R
 
 data class TopLevelNavItem(

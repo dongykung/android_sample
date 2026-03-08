@@ -10,9 +10,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.ui.NavDisplay
-import com.andlife.impl.navigation.articlesEntryProvider
-import com.andlife.impl.navigation.favoriteEntryProvider
-import com.andlife.impl.navigation.settingEntryProvider
+import com.andlife.feature.articles.impl.navigation.articlesEntryProvider
+import com.andlife.feature.favorite.impl.navigation.favoriteEntryProvider
+import com.andlife.feature.setting.impl.navigation.settingEntryProvider
 import com.andlife.navigation3sample.navigation.TOP_LEVEL_NAV_ITEMS
 import com.andlife.navigator.Navigator
 import com.andlife.navigator.toEntries
