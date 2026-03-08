@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Navigation3Sample</string>
+    <string name="articles">Articles</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+
 </resources>
