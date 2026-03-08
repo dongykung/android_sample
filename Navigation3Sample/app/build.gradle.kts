@@ -43,6 +43,12 @@ android {
 }
 
 dependencies {
+    implementation(projects.feature.articles.api)
+    implementation(projects.feature.favorite.api)
+    implementation(projects.feature.setting.api)
+    implementation(projects.core.navigator)
+    // icon
+    implementation(libs.androidx.material.icons.extended)
     // hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
@@ -55,6 +61,8 @@ dependencies {
 
     // serialization
     implementation(libs.kotlinx.serialization.json)
+
+    implementation(libs.androidx.compose.material3.adaptive.navigation.suite)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
