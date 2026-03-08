@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "Navigation3Sample"
 include(":app")
 include(":core:navigator")
+include(":feature:articles:api")
