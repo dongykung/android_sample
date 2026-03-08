@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.andlife.navigation3sample.navigation.rememberNavigator
+import com.andlife.navigation3sample.ui.SampleApp
 import com.andlife.navigation3sample.ui.theme.Navigation3SampleTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -21,12 +23,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Navigation3SampleTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                val navigator = rememberNavigator()
+                SampleApp(navigator)
             }
         }
     }

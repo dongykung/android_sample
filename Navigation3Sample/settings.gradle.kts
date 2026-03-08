@@ -21,7 +21,14 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 rootProject.name = "Navigation3Sample"
 include(":app")
 include(":core:navigator")
+include(":feature:articles:api")
+include(":feature:favorite:api")
+include(":feature:setting:api")
+include(":feature:articles:impl")
+include(":feature:setting:impl")
+include(":feature:favorite:impl")
