@@ -46,6 +46,10 @@ dependencies {
     implementation(projects.feature.articles.api)
     implementation(projects.feature.favorite.api)
     implementation(projects.feature.setting.api)
+    implementation(projects.feature.articles.impl)
+    implementation(projects.feature.favorite.impl)
+    implementation(projects.feature.setting.impl)
+
     implementation(projects.core.navigator)
     // icon
     implementation(libs.androidx.material.icons.extended)

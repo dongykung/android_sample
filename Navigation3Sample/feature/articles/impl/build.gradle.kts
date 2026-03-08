@@ -1,9 +1,10 @@
 plugins {
     alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.compose)
 }
 
 android {
-    namespace = "com.andlife.impl"
+    namespace = "com.andlife.feature.articles.impl"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1

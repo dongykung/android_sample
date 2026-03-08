@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.andlife.api"
+    namespace = "com.andlife.feature.favorite.api"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
