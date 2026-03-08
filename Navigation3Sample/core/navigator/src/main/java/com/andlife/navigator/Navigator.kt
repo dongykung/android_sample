@@ -1,7 +1,9 @@
 package com.andlife.navigator
 
+import androidx.compose.runtime.Stable
 import androidx.navigation3.runtime.NavKey
 
+@Stable
 class Navigator(val state: NavigationState) {
 
     fun navigate(key: NavKey) {
