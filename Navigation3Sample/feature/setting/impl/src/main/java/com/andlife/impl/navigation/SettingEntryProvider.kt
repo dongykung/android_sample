@@ -5,7 +5,7 @@ import androidx.navigation3.runtime.EntryProviderScope
 import androidx.navigation3.runtime.NavKey
 import com.andlife.api.SettingNavKey
 
-fun EntryProviderScope<NavKey>. settingEntryProvider() {
+fun EntryProviderScope<NavKey>.settingEntryProvider() {
     entry<SettingNavKey> {
         Text("Setting")
     }
