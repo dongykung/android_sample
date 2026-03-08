@@ -1,4 +1,4 @@
-package com.andlife.api
+package com.andlife.feature.favorite.api
 
 import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable
