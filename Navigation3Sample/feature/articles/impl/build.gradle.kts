@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.feature.articles.impl)
+    implementation(projects.feature.articles.api)
     implementation(libs.androidx.navigation3.runtime)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
