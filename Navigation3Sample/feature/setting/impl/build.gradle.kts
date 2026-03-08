@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation(projects.feature.setting.impl)
     implementation(libs.androidx.navigation3.runtime)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
