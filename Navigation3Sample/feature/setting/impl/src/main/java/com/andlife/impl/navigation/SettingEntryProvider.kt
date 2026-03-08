@@ -1,4 +1,4 @@
-package com.andlife.impl.navigation
+package com.andlife.feature.setting.impl.navigation
 
 import androidx.compose.material3.Text
 import androidx.navigation3.runtime.EntryProviderScope
